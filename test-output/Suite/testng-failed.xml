@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test_chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="vtiger.ContactTests.createcontacts">
+        <methods>
+          <include name="regional"/>
+          <include name="acConfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="bmConfig"/>
+          <include name="amConfig"/>
+          <include name="demoscript"/>
+          <include name="bcConfig"/>
+          <include name="createcontactsTest"/>
+        </methods>
+      </class> <!-- vtiger.ContactTests.createcontacts -->
+    </classes>
+  </test> <!-- Test_chrome(failed) -->
+  <test thread-count="2" parallel="tests" name="Test_firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="vtiger.ContactTests.createcontacts">
+        <methods>
+          <include name="regional"/>
+          <include name="acConfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="bmConfig"/>
+          <include name="amConfig"/>
+          <include name="demoscript"/>
+          <include name="bcConfig"/>
+          <include name="createcontactsTest"/>
+        </methods>
+      </class> <!-- vtiger.ContactTests.createcontacts -->
+    </classes>
+  </test> <!-- Test_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

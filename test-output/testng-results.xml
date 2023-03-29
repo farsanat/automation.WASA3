@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-29T22:06:29 IST" name="Default suite" finished-at="2023-03-29T22:06:45 IST" duration-ms="16267">
+    <groups>
+      <group name="reggressionSuit">
+        <method signature="createcontacts.demoscript()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" name="demoscript" class="vtiger.ContactTests.createcontacts"/>
+      </group> <!-- reggressionSuit -->
+      <group name="SmokeSuit">
+        <method signature="createcontacts.createcontactsTest()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" name="createcontactsTest" class="vtiger.ContactTests.createcontacts"/>
+      </group> <!-- SmokeSuit -->
+    </groups>
+    <test started-at="2023-03-29T22:06:29 IST" name="Default test" finished-at="2023-03-29T22:06:45 IST" duration-ms="16267">
+      <class name="vtiger.ContactTests.createcontacts">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:29 IST" name="bsConfig" finished-at="2023-03-29T22:06:29 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:29 IST" name="bcConfig" finished-at="2023-03-29T22:06:32 IST" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:32 IST" name="bmConfig" finished-at="2023-03-29T22:06:34 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createcontactsTest()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:34 IST" name="createcontactsTest" finished-at="2023-03-29T22:06:38 IST" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactsTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:38 IST" name="amConfig" finished-at="2023-03-29T22:06:39 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:39 IST" name="bmConfig" finished-at="2023-03-29T22:06:41 IST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="demoscript()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:41 IST" name="demoscript" finished-at="2023-03-29T22:06:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoscript -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:41 IST" name="amConfig" finished-at="2023-03-29T22:06:42 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:42 IST" name="bmConfig" finished-at="2023-03-29T22:06:44 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="regional()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:44 IST" name="regional" finished-at="2023-03-29T22:06:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regional -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:44 IST" name="amConfig" finished-at="2023-03-29T22:06:45 IST" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:45 IST" name="acConfig" finished-at="2023-03-29T22:06:45 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.ContactTests.createcontacts@1e730495]" started-at="2023-03-29T22:06:51 IST" name="asConfig" finished-at="2023-03-29T22:06:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.ContactTests.createcontacts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

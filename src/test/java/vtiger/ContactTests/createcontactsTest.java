@@ -41,7 +41,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			String username=pro.getProperty("username");
 			String password=pro.getProperty("password");
 			/* Read data from excel sheet - Test data */
-			FileInputStream fls1=new FileInputStream("./src/test/resources/Untitled spreadsheet.xlsx");
+			FileInputStream fls1=new FileInputStream("./src/test/resources/Untitled spreadsheet .xlsx");
 			Workbook wb = WorkbookFactory.create(fls1);
 			 String value = wb.getSheet("contacts").getRow(1).getCell(2).getStringCellValue();
 			 WebDriver driver = null;

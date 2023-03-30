@@ -18,7 +18,7 @@ public class dataprovider {
 		data[1][0]="iphone";
 		data[1][1]=2000;
 		data[2][0]="nokia";
-		data[2][1]=500;
+		data[2][1]=600;
 		return data;
 	}
 

@@ -16,6 +16,7 @@ public class Readdatacommandfromline {
 	System.out.println(PASSWORD);
 	String  URL = System.getProperty("url");
 	System.out.println(URL);
+	System.out.println("........");
 	
 	
 	}
